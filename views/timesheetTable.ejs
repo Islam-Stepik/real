@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin-Bereich</title>
+    <link rel="stylesheet" href="../public/css/timesheets.css">
+
+</head>
+<body>
+
+<% include partials/buttonbar.ejs %>
+
+<% include partials/timesheetTableCalc.ejs%> <!--  Kalkulation Überstunden etc.  -->
+
+<!--<p>Arbeitsstunden gesamt ...</p>-->
+
+<!--<p>Fehlstunden: ... Quote: ...</p>-->
+
+<% include partials/timesheetTable.ejs %>
+
+<div id="timesheetsPanel"></div>
+
+<div id="panel"></div>
+
+</body>
+</html>

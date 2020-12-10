@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RealTimeCC - User</title>
+    <link rel="stylesheet" type="text/css" href="../public/css/userpage.css">
+</head>
+<body>
+<div id="panel"></div>
+
+<div id="userpageGrid">
+
+    <label id="morninglabel">Hallo
+        <% dataname.forEach(function (dataname) { %>
+            <%= dataname.vorname %>
+        <% }) %>
+        !
+    </label>
+
+    <% include partials/userPageInfos.ejs %> <!--UserInfos-->
+
+    <div id="buttonarea">
+        <form method="post">
+            <% if(datalogin < 1){ %>
+                <input type="submit" class="button" name="loginButton" value="Anmelden">
+            <% } else if(datalogout < 1) { %>
+                <input type="submit" class="button" name="logoutButton" value="Abmelden">
+            <% } else { %>
+                <input type="submit" class="button" name="okButton" value="OK">
+            <% } %>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
