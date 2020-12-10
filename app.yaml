@@ -1,0 +1,12 @@
+Laufzeit : nodejs10
+
+env_variables :
+  DB_USER : " root "
+  DB_NAME : " Datenbank "
+  DB_PASS : " xyz1234pbj "
+  DB_INSTANCE : " Projektname: us-central1: SQL-Instanz "
+  TESTVAR : " hehehe "
+  TWILIO_SID : " XYZ1234PBJ "
+  TWILIO_AUTH_TOKEN : " XYZ1234PBJ "
+  GOOGLE_CLIENT_ID : " xyz1234PBJ.apps.googleusercontent.com "
+  GOOGLE_CLIENT_SECRET : " xyz1234-PBJ "
