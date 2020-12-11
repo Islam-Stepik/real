@@ -4,7 +4,7 @@
   "description": "Arbeitszeiterfassung",
   "main": "main.js",
   "scripts": {
-    "test": "test"
+    "start": "node main.js"
   },
   "author": "Islam Kozloev",
   "license": "ISC",
